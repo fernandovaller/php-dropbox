@@ -9,7 +9,7 @@ use System\Config;
 //Config::setDefaultRouter('app');
 //Adicionando o caminho ate a aplicao para
 //nao interferir nas rotas - url[0]
-Router::setPrefix(['pessoal', 'php-dropbox-files']);
+//Router::setPrefix(['pessoal', 'php-dropbox-files']);
 
 //Rotas do sistema de login
 System\Router::post('login', function (){	    
