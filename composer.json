@@ -1,0 +1,21 @@
+{
+    "name": "fernandovaller/sicpages",
+    "authors": [
+        {
+            "name": "Fernando Valler",
+            "email": "fernandovaller@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^2.5",
+        "kunalvarma05/dropbox-php-sdk": "0.2.*",
+        "tightenco/collect": "v5.2.*"
+    },
+    "autoload":{
+        "psr-4":{
+            "System\\": "system/class/",
+            "App\\":"app/class/"
+        }
+    }
+
+}
