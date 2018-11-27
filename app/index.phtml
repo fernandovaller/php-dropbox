@@ -48,15 +48,12 @@
   </div><!-- /.navbar-collapse -->
 </nav>
 
-  <div class="container">  
-    
+  <div class="container">      
     <div class="conteudo-paginas">
       <?=System\Page::loads($page, System\Config::getDefaultRouter());?>
-    </div>     
-
+    </div>
   </div>  
-    
-   
+       
   <script src="<?=assets('libs/jquery/jquery-1.12.1.min.js')?>"></script>  
   <script src="<?=assets('libs/bootstrap-3.3.7-dist/js/bootstrap.min.js')?>"></script>  
   <script src="<?=assets('js/script.js', true)?>"></script>

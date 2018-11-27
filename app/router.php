@@ -11,7 +11,6 @@ use System\Config;
 //nao interferir nas rotas - url[0]
 Router::setPrefix(['pessoal', 'php-dropbox-files']);
 
-
 //Rotas do sistema de login
 System\Router::post('login', function (){	    
 	System\Page::load('login/login-action');
